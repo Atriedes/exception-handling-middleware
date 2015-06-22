@@ -1,6 +1,9 @@
 Error Handling Middleware
 =========================
 
+[![Build Status](https://travis-ci.org/Atriedes/exception-handling-middleware.svg?branch=master)](https://travis-ci.org/Atriedes/exception-handling-middleware)
+
+
 PSR 7 error handling middleware
 
 Intallation & Requirements
