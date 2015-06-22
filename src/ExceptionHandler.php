@@ -76,8 +76,6 @@ class ExceptionHandler implements MiddlewareInterface
                 $e->getLine(),
             ]);
 
-            var_dump($e->getMessage());
-
             /**
              * Set header and status code if exception instance of Symfony HttpException
              */
