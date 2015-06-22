@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1434953263">
+  <project timestamp="1434953263">
+    <package name="Jowy\ExceptionHandler">
+      <file name="/home/jowy/Project/http-exception-middleware/src/ExceptionHandler.php">
+        <class name="ExceptionHandler" namespace="Jowy\ExceptionHandler" fullPackage="Jowy" package="Jowy">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="31" coveredelements="31"/>
+        </class>
+        <line num="39" type="method" name="__construct" crap="1" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="42" type="stmt" count="5"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="44" type="stmt" count="5"/>
+        <line num="45" type="stmt" count="5"/>
+        <line num="53" type="method" name="__invoke" crap="5" count="4"/>
+        <line num="56" type="stmt" count="4"/>
+        <line num="57" type="stmt" count="4"/>
+        <line num="61" type="stmt" count="4"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="65" type="stmt" count="3"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="4"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="stmt" count="4"/>
+        <line num="76" type="stmt" count="4"/>
+        <line num="77" type="stmt" count="4"/>
+        <line num="79" type="stmt" count="4"/>
+        <line num="84" type="stmt" count="4"/>
+        <line num="85" type="stmt" count="3"/>
+        <line num="87" type="stmt" count="3"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="3"/>
+        <line num="90" type="stmt" count="3"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="4"/>
+        <line num="99" type="stmt" count="4"/>
+        <metrics loc="102" ncloc="66" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="31" coveredelements="31"/>
+      </file>
+    </package>
+    <metrics files="1" loc="102" ncloc="66" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="31" coveredelements="31"/>
+  </project>
+</coverage>

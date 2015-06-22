@@ -1,0 +1,17 @@
+---
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+suites:
+  jowy_suite:
+    namespace: Jowy\ExceptionHandler
+    psr4_prefix: Jowy\ExceptionHandler
+formatter.name: pretty
+code_coverage:
+  blacklist:
+    - src/Exception
+  format:
+    - html
+    - clover
+  output:
+    html: coverage
+    clover: coverage.xml

@@ -1,0 +1,33 @@
+{
+    "name": "jowy/exception-handling-middleware",
+    "description": "PSR7 Http Exception Handling Middleware",
+    "type": "Middleware",
+    "keywords": ["psr-7", "middleware", "exception handling"],
+    "require": {
+        "zendframework/zend-stratigility": "^1.0",
+        "zendframework/zend-diactoros": "^1.0",
+        "filp/whoops": "^1.1",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "henrikbjorn/phpspec-code-coverage": "^1.0"
+    },
+    "conflict": {
+        "symfony/http-kernel": ">=2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo Wicaksono",
+            "email": "pras@openmailbox.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jowy\\ExceptionHandler\\" : "src/",
+            "Symfony\\Component\\HttpKernel\\Exception\\" : "src/Exception/"
+        }
+    }
+}
